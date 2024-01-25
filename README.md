@@ -1,1 +1,1 @@
-My 10 Practice Project ( HTML,cSS )
+My Practice Project ( HTML,cSS )
