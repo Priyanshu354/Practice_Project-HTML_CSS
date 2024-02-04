@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+
+html,body{
+
+}
+
+.container{
+    background-image: url(images/developer.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.hero h1{
+    padding-right: 250px;
+}
+
+.hero_text{
+    font-size: 60px;
+}
+
+.twosection{
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.worktext{
+    font-size: 120px;
+}
+
+.middle{
+    background-color: white;
+    min-height: 600px;
+    padding: 100px 100px 100px 100px;
+}
+
+.middlesection{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.box1, .box2, .box3 {
+    background-color: white;
+    height: 400px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 0 rgb(201, 195, 195);
+}
+
+.box1 p{
+    padding: 50px 10px 50px 10px;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(48, 45, 45);
+}
+
+.box2 h1{
+    padding: 20px 15px 10px 15px;
+}
+
+.box2 p{
+    padding: 10px 15px 50px 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(48, 45, 45);
+}
+
+.box3 h1{
+    padding: 20px 15px 10px 15px;
+}
+
+.box3 p{
+    padding: 10px 15px 50px 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(48, 45, 45);
+}
+
+.last{
+    height: 240px;
+    display: flex;
+}
+
+.aboutme{
+    background-color: rgb(59, 75, 0);
+}
+
+.contactme{
+    background-color: rgb(131, 0, 0);
+}
+
+
+.firsttext{
+    padding: 30px 50px 30px 50px;
+    margin: 0px 40px 0px 40px;
+    color: white;
+    font-size: 50px;
+}
+
+.secondtext{
+    color: rgb(255, 255, 255);
+    margin: 0px 40px 0px 40px;
+    padding: 0px 50px 30px 50px;
+    font-size: 11px;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+.footersec{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
