@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 500px;
+}
+
+
+nav{
+    background-color: rgb(35, 0, 100);
+    padding: 10px 60px 8px 60px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navsection{
+    display: flex;
+    gap: 25px;
+}
+
+.hero{
+    background-image: url(images/hero_image.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 30px;
+}
+
+.hero h1{
+    font-size: 60px;
+}
+
+.hero h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hero p{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.about{
+    background-color: rgb(41, 0, 80);
+    width: 100vw;
+    height: 700px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutus{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.musiclogo{
+    display: flex;
+    gap: 4px;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.musiclogo i{
+    margin: 10px;
+}
+
+.aboutus h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.aboutus p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.aboutus button{
+    border: none;
+    background-color: rgb(202, 0, 0);
+    color: #ffffff;
+    font-weight: 300;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+
+.aboutus h4{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.collections{
+    background-color: white;
+    width: 100vw;
+    height: 1400px;
+    margin: 0 auto;
+    color: black;
+}
+
+.collection{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ipad{
+    margin: 0 auto;
+    position: relative;
+    bottom: 350px;
+    left: 10px;
+}
+
+.collection_info{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    bottom: 350px;
+    left: 10px;
+}
+
+.collection_info p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.collection_info button{
+    background-color: rgb(73, 1, 73);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 10px;
+    font-weight: 200;
+    box-shadow: 30px black;
+}
+
+.mac{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 280px;
+}
+
+.entertaiment{
+    background-image: url(images/video.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+}
+
+.entertaiment p{
+    margin: 30px;
+}
+
+.giftcard{
+    background-color: #ffffff;
+    display: flex;
+    margin: 60px;
+    gap: 70px;
+}
+
+.giftcard img{
+    height: 400px;
+}
+
+.giftinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
+.giftinfo h1{
+    font-size: 50px;
+    align-self: center;
+}
+
+.giftinfo h3{
+    font-size: 25px;
+}
+
+.particion{
+    border: 1px solid black;
+}
+.giftinfo button{
+    align-self: flex-start;
+    background-color: rgb(73, 1, 73);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 10px;
+    font-weight: 200;
+    box-shadow: 30px black;
+}
+
+footer{
+    background-color: rgb(0, 1, 37);
+    color: white;
+    padding: 20px 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.particion1{
+    border: 1px solid white;
+}
+
+footer ul{
+    font-size: 20px;
+}
+
+.particion3{
+    background-color: rgb(1, 1, 73);
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
